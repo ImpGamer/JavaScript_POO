@@ -11,25 +11,27 @@
         <h1>Creacion de cursos</h1>
         <form action="" class="ed-container">
             <label class="ed-item form-item">Nombre del curso
-                <input type="text">
+                <input type="text" id="nombreCurso">
             </label>
             <label class="ed-item form-item">URL de imagen:
-                <input type="text">
+                <input type="text" id="URL_imagen">
             </label>
             <label class="ed-item form-item">Descripcion del curso
-                <textarea cols="30" rows="10"></textarea>
+                <textarea cols="30" rows="10" id="descripcionCurso"></textarea>
             </label>
             <label class="ed-item form-item">Cantidad de clases del curso
-                <input type="number" name="" id="">
+                <input type="number" id="cantClases">
             </label>
   
-            <button class="button full second-color">Almacenar Curso</button>
+            <button type="button" class="button full second-color" id="guardar">Almacenar Curso</button>
         </form>
+        <p id="formMessage"></p>
 
         <h1>Cursos Almacenados</h1>
-        <div class="cursos">
-
+        <div id="cursos">
+           
         </div>
+
     </div>
     <script type="module" src="index.js"></script>
 </body>

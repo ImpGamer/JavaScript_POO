@@ -6,5 +6,14 @@ export default class Curso {
         this.imagen = imagen
         this.clases = clases
     }
-    
+    getNombre() {return this.nombre}
+    getDescripcion() {return this.descripcion}
+    getImagen() {return this.imagen}
+    getClases() {return this.clases}
+
+    //Setters
+    setNombre(nombre) {this.nombre = nombre}
+    setDescripcion(descripcion) {this.descripcion = descripcion}
+    setImagen(imgen) {this.imagen = imgen}
+    setClases(clases) {this.clases = clases}
 }
